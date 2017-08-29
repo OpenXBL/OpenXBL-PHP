@@ -1,6 +1,8 @@
 # OpenXBL PHP Wrapper 
 This PHP package is a lightweight wrapper for OpenXBL. That's the easiest way to use OpenXBL in your PHP applications.
 
+[![Build Status](https://travis-ci.org/OpenXBL/OpenXBL-PHP.svg)](https://travis-ci.org/OpenXBL/OpenXBL-PHP)
+
 Part of the [XBL.IO](https://xbl.io) feature set.
 
 ```php
