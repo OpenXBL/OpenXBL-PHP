@@ -1,0 +1,8 @@
+{
+    "name": "openxbl/openxbl",
+    "description": "Wrapper for OpenXBL",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {"OpenXBL\\": "src/"}
+    }
+}
