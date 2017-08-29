@@ -63,6 +63,8 @@ $xbox = new Api('APP_KEY');
 $xbox->isApp = TRUE;
 
 print $xbox->get('/account');
+
+print $xbox->post('/clubs/reserve', array('name' => 'OpenXBL'));
 ?>
 ```
 
@@ -78,7 +80,7 @@ $xbox->format = 'json';
 /**
  * # Language of response, if available. 
  */
-$xbox->format = 'json';
+$xbox->language = 'en-US, en';
 
 ?>
 ```
