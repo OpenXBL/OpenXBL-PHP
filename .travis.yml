@@ -7,3 +7,5 @@ php:
 before_script:
   - composer self-update
   - composer install
+
+script: vendor/bin/phing test -Donly.units=true
