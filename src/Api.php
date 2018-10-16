@@ -27,7 +27,7 @@ class Api
 	     *
 	     * @var string
 	     */
-		public $base_url = 'https://v2-beta.xbl.io/api/v2/';
+		public $base_url = 'https://xbl.io/api/v2/';
 
 	    /**
 	     * Format for expected response
