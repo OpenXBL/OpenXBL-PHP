@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Documentation
-    url: https://xbl.io/docs
+    url: https://xbl.io/getting-started
     about: Check the documentation before opening an issue.
 
   - name: Support
