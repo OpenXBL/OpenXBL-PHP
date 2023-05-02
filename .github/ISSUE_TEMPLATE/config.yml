@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://xbl.io/docs
+    about: Check the documentation before opening an issue.
+
+  - name: Support
+    url: https://discord.gg/RbhwRMZsJa
+    about: We use GitHub issues only to discuss bugs and new features.
