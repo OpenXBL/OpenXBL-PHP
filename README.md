@@ -53,6 +53,21 @@ print_r($client->get('account'));
 ?>
 ```
 
+Making a Claims Request
+----------
+
+```php
+<?php
+// Instantiate.
+require __DIR__ . '/vendor/autoload.php';
+use OpenXBL\Auth;
+
+$auth = new Auth('YOUR_PUBLIC_KEY');
+
+$response = $auth->claim('CODE_VALUE');
+?>
+```
+
 Optional Parameters
 ----------
 ```php

@@ -73,6 +73,6 @@ class HttpService
 
         $request = $this->client->request($this->method, $this->endpoint, $options);
 
-        return $request->getBody()->getContents();
+        return (string) $request->getBody();
 	}
 }
